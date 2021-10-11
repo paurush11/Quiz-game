@@ -7,9 +7,9 @@ class Question{
     question = s;
     quesanswer = b;
     if(b==true)
-      print("You've chosen True as your answer");
+      print("You've chosen true as your answer");
     else
-      print("You've chosen False as your answer");
+      print("You've chosen false as your answer");
       
       
   }
