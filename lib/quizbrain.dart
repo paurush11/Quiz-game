@@ -38,5 +38,14 @@ class QuizBrain{
   }
   String getQuestion()=>_Questions[_qcount].question;
   bool getAns() => _Questions[_qcount].quesanswer;
+  
+  group("some_Group_Name", () { 
+   test("test_name_1", () { 
+      expect(actual, equals(exptected)); 
+   });  
+   test("test_name_2", () { 
+      expect(actual, equals(expected)); 
+   }); 
+}) 
 
 }
